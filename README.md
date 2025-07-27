@@ -1,36 +1,43 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 📬 Message Flow System
 
-## Getting Started
+The Message Flow System is a visual workflow tool designed to model and automate communication steps across different channels. It currently supports two types of nodes messages and emails, enabling users to define how information flows through a sequence. This tool serves as the foundation for building intelligent, multi-channel communication pipelines.
 
-First, run the development server:
+## Visit app live
+
+Hosted on vercel: visit at http://localhost:3000
+
+# Future Improvements for Message Flow System
+
+1. **Add Message Providers**  
+   Allow each node to specify its provider (e.g., WhatsApp, Slack, Gmail, Outlook). This enables multi-platform communication support and provider-specific configurations.
+
+2. **Add Priority Levels**  
+   Assign priorities to nodes such as `normal`, `important`, `critical`, which could influence delivery order or styling in the UI.
+
+3. **Scheduling Support**  
+   Add ability to schedule when a message/email should be sent (e.g., send at a specific date/time or after a delay).
+
+## 🛠️ Tech Stack / Libraries Used
+
+- [**Next.js**](https://nextjs.org/)
+
+- [**React Flow**](https://reactflow.dev/)  
+  Library for building node-based UIs, used here to visually represent and edit the message flow graph.
+
+- [**Tailwind CSS**](https://tailwindcss.com/)  
+  Utility-first CSS framework for building modern, responsive, and consistent UIs with minimal custom CSS.
+
+## Play in local env
+
+clone, install dependecies and run the development server:
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 📬 Contact
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+[📧 amitdhaterwal12@gmail.com](mailto:amitdhaterwal12@gmail.com)
