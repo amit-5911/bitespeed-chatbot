@@ -10,6 +10,10 @@ Hosted on vercel: visit at https://bitespeed-chatbot.vercel.app/
 
 https://github.com/user-attachments/assets/5414b37b-065e-4773-bbfe-9ac8de62e9a5
 
+**multiple nodes to a target**
+
+https://github.com/user-attachments/assets/414ab472-120e-43e7-8a60-7f5123f86d82
+
 # Future Improvements for Message Flow System
 
 1. **Add Message Providers**  
