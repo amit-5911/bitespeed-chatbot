@@ -4,7 +4,11 @@ The Message Flow System is a visual workflow tool designed to model and automate
 
 ## Visit app live
 
-Hosted on vercel: visit at http://localhost:3000
+Hosted on vercel: visit at https://bitespeed-chatbot.vercel.app/
+
+## Demo Videos
+
+https://github.com/user-attachments/assets/5414b37b-065e-4773-bbfe-9ac8de62e9a5
 
 # Future Improvements for Message Flow System
 
